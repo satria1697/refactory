@@ -1,0 +1,62 @@
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
+@import "../styles/base/scrollbar";
+
+html {
+  body {
+    font-family: Segoe Ui, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+  }
+}
+
+.row {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.pointer-event {
+  cursor: pointer;
+}
+
+div.modal {
+  &-mask {
+    position: fixed;
+    z-index: 9988;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  &-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  &-content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &-dialog {
+    margin: 0 auto;
+    max-width: 640px;
+    //max-height: 85vh;
+  }
+  &-body {
+    max-height: 77vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  &-footer {
+    background-color: #fffbff;
+  }
+}

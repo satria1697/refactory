@@ -1,0 +1,16 @@
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
+html {
+  body {
+    font-family: Segoe Ui, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+  }
+}
+
+.row {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
