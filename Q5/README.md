@@ -10,15 +10,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Q5<br>
+A small application for impletation from https://www.figma.com/file/uvLIMVVlssrWOYa8xMfvnQ/Untitled?node-id=0%3A1.
+This application is used as Task Manager, you can add, change status, edit and delete the tasks.

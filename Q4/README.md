@@ -1,4 +1,4 @@
-# vue-test-code
+# Q4
 
 ## Project setup
 ```
@@ -9,23 +9,6 @@ yarn install
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-Expected Output :
-![expected](./src/assets/Expected.png)
-
 
 ### Fixing
 store.js

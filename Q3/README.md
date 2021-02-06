@@ -1,4 +1,4 @@
-# task1
+# Q3
 
 ## Project setup
 ```
@@ -10,15 +10,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Q3<br>
+A small application for print JSON manipulation.
+There are 5 data will be printed on this application
+<ol>
+    <li>Items in the Meeting Room.</li>
+    <li>All electronic devices.</li>
+    <li>All the furniture</li>
+    <li>All items were purchased on 16 Januari 2020.</li>
+    <li>All items with brown color.</li>
+</ol>
