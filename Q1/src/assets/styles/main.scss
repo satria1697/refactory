@@ -1,0 +1,26 @@
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
+html {
+  body {
+    font-family: "DejaVu Sans Mono", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+  }
+}
+
+.row {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
